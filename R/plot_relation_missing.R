@@ -7,6 +7,7 @@
 plot_relation_missing <- function(varbl=NULL, data=NULL){
   y <- as.numeric(is.na(data[,varbl]))
   x <- data[,-which(colnames(data)==varbl)]
+  x$y <- y
   fit <- glm(y~.,family="binomial", data=x)
 
   plot.df     <- data.frame(coef(summary(fit)))
