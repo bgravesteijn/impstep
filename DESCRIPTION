@@ -1,12 +1,10 @@
 Package: impstep
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Formulas for the 5 steps of imputation. 
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Author: Benjamin Gravesteijn
+Maintainer: The package maintainer <b.gravesteijn@erasmusmc.nl>
+Description: This package contains formulas used in the paper called "Missing data in prediction research for acute medicine: A five step approach for multiple imputation".
 License: What license is it under?
 Encoding: UTF-8
-LazyData: true
 RoxygenNote: 6.1.1
