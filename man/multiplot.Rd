@@ -9,6 +9,10 @@ multiplot(..., plotlist = NULL, file, cols = 1, layout = NULL)
 \arguments{
 \item{...}{ggplot object}
 
+\item{plotlist}{list of ggplot objects. Either plotlist or ... is specified.}
+
+\item{file}{...}
+
 \item{cols}{number of columns}
 
 \item{layout}{matrix describing how the plots should be ordered}

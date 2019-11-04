@@ -5,6 +5,6 @@ Version: 0.1.0
 Author: Benjamin Gravesteijn
 Maintainer: The package maintainer <b.gravesteijn@erasmusmc.nl>
 Description: This package contains functions used in the paper called "Missing data in prediction research for acute medicine: A five step approach for multiple imputation".
-License: CC0
+License: CC0s
 Encoding: UTF-8
 RoxygenNote: 6.1.1

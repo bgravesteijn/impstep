@@ -1,6 +1,8 @@
 #' Plot multiple ggplot objects
 #'
 #' @param ... ggplot object
+#' @param plotlist list of ggplot objects. Either plotlist or ... is specified.
+#' @param file ...
 #' @param cols number of columns
 #' @param layout matrix describing how the plots should be ordered
 #' @return Returns a plot containing all ggplot objects
